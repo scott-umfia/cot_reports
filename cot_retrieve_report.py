@@ -19,9 +19,9 @@ PYTHON_FILE_NAME = os.path.basename(__file__)
 dbHost     = '127.0.0.1'
 #dbPort_local     = 3306
 dbPort_colo     = 2048
-dbSchema   = 'optiondata'
-dbUser     = 'root'
-dbPassword = 'sparta'
+dbSchema   = 'SCHEMA'
+dbUser     = 'USER'
+dbPassword = 'PASSWORD'
 # -----------------------------------------------------------------
 
 
