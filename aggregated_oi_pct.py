@@ -36,7 +36,7 @@ def LoadSqlData(sql, conn):
 
 
 # make mysql connection
-conn_colo = MySQLdb.connect(host = '192.168.224.203', user = 'root', passwd = 'sparta', db = 'optiondata', port = 3306)
+conn_colo = MySQLdb.connect(host = 'HOST', user = 'USER', passwd = 'PASSWORD', db = 'DB_TABLE', port = 3306)
 
 # create list of symbols
 symbols = ['BO','C-','CC','CL','CT','FC','GC','HO','KC','LC','LH','NG','S-','SB','SI','SM','W-']
